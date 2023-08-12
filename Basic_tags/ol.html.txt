@@ -1,0 +1,14 @@
+<html>
+					<body>
+											<h3>						
+												an ordered list 	:-=) 		
+											</h3>			
+
+											<ol type ="i" >	
+														<li>	BCA		</li>	
+														<li>	BBA		</li>
+														<li>	BCOM</li>		
+														<li>	CA		   </li>
+											</ol>	
+					</body>
+</html>

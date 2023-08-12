@@ -1,0 +1,17 @@
+<html>
+					<body>
+								   <marquee behavior="slide">
+									hello my dear friends</marquee>
+										<marquee directions ="right ">
+								  I'm Manav Ramani </marquee>
+									<marquee width="26">
+									thanks for the seen </marquee>
+									<marquee scrollamount="30">
+									this channel is upload status </marquee>
+										<marquee scrolldelay="200">
+									whatsapp,Instagram, Facebook </marquee>
+										<marquee loop="4">
+									new status upload daily </marquee>
+																							
+					</body>
+</html>

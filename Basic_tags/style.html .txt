@@ -1,0 +1,18 @@
+<html>
+					<head>
+										<style>
+														<h4>
+																	{
+																	text~align : center 
+																	} 
+										</style>
+		   		</head>
+		   	  <body>
+							      	<h1 style="color : blue;">hello gays</h1>
+
+							     	<h2> welcome to <pre> this channel for anyone join this channel </pre>
+
+							     	<pre width="10">thanks for the seen my channel 
+							      	</pre>
+						</body>
+</html>

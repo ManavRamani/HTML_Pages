@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title> pattern </title>
+	</head>
+	<body>
+		
+			<form action="/action_page.php">
+			
+				<label for="counter_code">	Country Code : </label>
+				<input type="taxt" id="counter_code" pattern="[A-Za-z]{3}" title="Three latter country code"><br><hr>
+			
+				<input type="submit" value="submit">
+				
+				<hr>
+					<label for="search">
+							Search : 
+							</label>
+							<input type="search" id="search" name="search" pattern="[^'\x22]+" title="Invalid input">
+							
+			</form>
+			
+	</body>
+</html>

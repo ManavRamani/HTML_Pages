@@ -1,0 +1,13 @@
+<html>
+					<body>											
+											<p>
+												my new channel is
+											<s>
+															not available
+											</s>
+											now my new channel is available in YouTube 
+											</p>
+					 </body>						
+</html>
+												
+												

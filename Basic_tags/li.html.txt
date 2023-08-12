@@ -1,0 +1,25 @@
+<html>
+					<body>
+											<h3>						
+												an ordered list 	:-=) 		
+											</h3>			
+
+											<ol >	
+														<li type ="1" >	BCA		</li>	
+														<li type ="a" >	BBA		</li>
+														<li type ="i" >	BCOM</li>		
+														<li type ="circle">CA </li>
+											</ol>	
+													
+											<h3>						
+												an unordered list 	:-=) 		
+											</h3>			
+
+											<ul >	
+														<li type ="A" >	BCA		</li>	
+														<li type ="1" >	BBA		</li>
+														<li type ="Square">	BCOM</li>		
+														<li type ="a" >	CA		   </li>
+											</ul>	
+					</body>
+</html>

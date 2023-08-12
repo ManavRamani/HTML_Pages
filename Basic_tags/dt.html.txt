@@ -1,0 +1,13 @@
+<html>
+					<body>
+											<h3>						
+												definitions 	:-=) 		
+											</h3>			
+											<dl>	
+														<h2> BCA </h2>
+														<dt>FYBCA </dt>
+														<dt>SYBCA</dt>
+														<dt>TYBCA</dt>
+											</dl>	
+					</body>
+</html>

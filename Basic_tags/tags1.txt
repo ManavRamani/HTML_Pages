@@ -1,0 +1,49 @@
+Starting.....
+
+HTML CSS JS(JavaScript)
+-Structer/Layout -Style -Logic
+
+1). Level -> 1 -> HTML :
+
+        -> HTML (Hyper Text Markup Language).
+        -> HTML is the code that is used to Structer a web page and its content.
+        -> The component used to design the Structer of websites are called HTML tags.
+
+    * First HTML File :
+
+        ->index.html
+        -it is the default name for a website's home page
+
+    * HTML Tag :
+
+        -> A container for some content or other HTML tags.
+        -<p>This is paragraph</p>
+        -<p> -> this is Element
+
+    * Basic HTML Page :
+
+        -> basic Structer of html.
+
+            <!DOCTYPE html>                 // Html 5 use
+            <html>                          // root of an html document
+            <head>                          // container for metadata
+                <title>Manav Ramani</title> // Paghe title :
+            </head>
+            <body>                          // container all data show in crome...
+                <p>Hello world</p>          // paragraph tag with content...
+            </body>
+            </html>
+
+    * Quick Points :
+        
+        -> Html tag is parent of head & body tag.
+        -> Most of html elements have opening & closing tags with content in between.
+        -> Some tags have no content in between , eg - <br>
+        -> We can use inspect element/view page source to edit html 
+
+    * Comments in HTML :
+
+        ->This is part of code that should not be parsed.
+
+            <!-- This is an HTML comment  -->
+            

@@ -1,0 +1,40 @@
+
+<html>
+	<head>
+		<title> Sign in </title>
+	</head>
+	<style>
+		body
+			{
+				background-color:lightblue;
+			}
+			
+		.signinbtn
+		{
+			background-color:lightgreen;
+		}
+		
+		label
+			{
+				background-color:pink;
+			}
+		
+	</style>
+	<body>
+		<form>
+				<label for="email"><b> Enter Email :</b></label>
+		<br>
+		<input type="text" placeholder="Enter Email" name="email" required>
+		<br>
+
+		<label for="pwd"><b> Password :</b></label>
+		<br>
+		<input type="password" placeholder="Enter Password" name="pwd" id="pwd" required>
+		<br>
+		<button type="submit" class="signinbtn">
+		<strong> SIGN IN </strong>
+		</button>
+		
+		</form>
+	</body>
+</html>

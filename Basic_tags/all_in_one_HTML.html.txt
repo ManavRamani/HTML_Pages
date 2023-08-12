@@ -1,0 +1,61 @@
+ <html>    
+					<head>
+									<title>
+														<p>youtu.be</p>
+										</title>
+					</head>
+ 					<body>
+
+								<strong>
+		<p>	 <b>	welcome to our chann👍👍👌</b></p>
+								</strong>
+
+				 <p>💐💐🙏❤❤No. <sub>1</sub>channel❤❤🙏💐💐</p>
+
+     	
+			  <big> <h2>  subscribe </h2></big>
+<p>
+			_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+</p>
+						<p>
+					<marquee scrollamount="1">
+					<font attribute=color"green"size="10">
+							hello friends, 
+								</font>
+						<h3>	<i>	I'm Manav Ramani</i> </h3>
+								<h6><small>this channel is upload</small> WhatsApp, 
+								Instagram, Facebook status, </h6>
+								<h5>Daily update new status<h5>
+						</marquee>		
+						</p>
+						<blink>	
+						<pre>
+						<u>		Plzz😇😇 SUBSCRIBE</u>
+						</pre>
+						</blink>
+						<strike>		
+				<b><i>channel owner :-</i></b>
+						</strike>
+<p>
+			_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+</p>
+							<u><h1>	Manav Ramani</h1></u>
+				<marquee attribute behavior="slide" >
+						<p>
+								🙏👍👌👌😍💐👌👌👍🙏
+						</p>
+				</marquee>
+					<marquee srollamount="5" >								
+			<i><tt>thanks for visiting <sup>M </sup>channel</i></tt>
+					</marquee>			
+						<p>		
+						<marquee scrolldelay="5000">
+								🙏🙏💐💐❤❤💐💐🙏🙏
+						</marquee>
+						</p>
+						<! -- anybody join this channel -->
+
+					<a href=" https://www.youtube.com/channel/UCK0naWdEkj-Qs5c8fjmm_rA" >
+					</a>				
+						</body>
+</html>

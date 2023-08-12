@@ -1,0 +1,14 @@
+<html>
+					<body>
+										<table border="5" align ="center " bgcolor="green" cellpedding="6"  callspeacing ="4" frame="lhs" >
+																<tr bgcolor="blue">
+																	   <th>		Manav </th>
+																			<th> jay</th>
+																</tr>
+																<tr bgcolor="red">
+																	    <td>Ramani </td>
+																			 <td>Ramani </td>
+																</tr>
+										</table>
+					</body>
+</html>

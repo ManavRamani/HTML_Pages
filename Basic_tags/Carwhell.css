@@ -1,0 +1,10 @@
+*
+
+
+.wheel img
+{
+		width: 72px;
+		height: 72px;
+		animation: wheel 1s linear infinite;
+		
+}
