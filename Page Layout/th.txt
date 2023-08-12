@@ -1,0 +1,124 @@
+3. Page Layout Techniques : 
+
+    -> using Semantic tags for layout 
+    -> using the right tags
+
+    <header>
+    <main>
+    <footer>
+
+    2 Type of Layout 
+       1. Semantic :
+        i). header :
+       ii). footer :
+
+            -> uses of Semantic Layout :
+                - Readable :
+                - SEO Improv...
+                - Good user Expre...
+
+
+       2. Non-Semantic :
+        i). div :
+       ii). spen :
+
+
+     * Inside Main Tags : 
+
+        -> Section Tag - for a Section on your page
+
+            <section>
+
+        -> Article Tag - for an Article on your page 
+
+            <article> 
+
+        -> Aside Tag - for content aside main content(ads)
+
+            <aside>
+
+    * Revisiting Anchor Tag :
+
+        <a href="http://google.com" target="_main">Google</a>
+        <a href="http://google.com"><img src="link"></a>
+
+    * Div Tag :
+
+        -> Div is container used for other HTML elements
+        -> Block Elements (tacks full width).
+
+    * List : Block Tags :
+
+        -> Full Width ..... below tags ....
+
+            - <address>
+            - <article>
+            - <aside>
+            - <blockquote>
+            - <canvas>
+            - <dd>
+            - <div>
+            - <dl>
+            - <dt>
+            - <fieldset>
+            - <figcaption>
+            - <figure>
+            - <footer>
+            - <form>
+            - <h1>-<h6>
+            - <header>
+            - <hr>
+            - <li>
+            - <main>
+            - <nav>
+            - <noscript>
+            - <ol>
+            - <p>
+            - <pre>
+            - <section>
+            - <table>
+            - <tfoot>
+            - <ul>
+            - <video>
+
+    * Spen Tag :
+
+        -> Span Tag is also container used for other HTML elements.
+        -> Inline Elements (tacks width as per size)
+
+    * List : Inline Tags :
+
+            - <a>
+            - <addr>    
+            - <acronym>
+            - <b>
+            - <bdo>
+            - <big>
+            - <br>
+            - <button>
+            - <city>
+            - <code>
+            - <dfn>
+            - <em>
+            - <i>
+            - <img>
+            - <input>
+            - <kdb>
+            - <label>
+            - <map>
+            - <object>
+            - <tt>
+            - <var>
+            - <output>
+            - <q>
+            - <samp>
+            - <script>
+            - <select>
+            - <small>
+            - <spen>
+            - <strong>
+            - <sub>
+            - <sup>
+            - <textarea>
+            - <time>
+            - <>

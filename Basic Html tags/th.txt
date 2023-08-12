@@ -1,0 +1,61 @@
+2. Basic HTML Tags :
+
+    -> HTML Attributes
+    -> Attributes are used to add more information to the tag.
+    -> <HTML lang="en">
+
+    * Heading Tags : 
+
+        -> Used to display headings in HTML
+
+            - <h1> : Most Important,
+                <h2>,
+                <h3>,
+                <h4>,
+                <h5>,
+              <h6> : Least Important
+
+    * Anchor Tag :
+
+        -> Used to add links to your page..
+
+        <a href="http://"></a>
+
+    * Image Tag :
+
+        -> Used to add Images to your page..
+
+        <img src="/" alt="">
+
+    * Break Line (New Line) :
+
+        -> Used to add next line (line Breaks) to your page
+
+        <br>    /       </br>       /       <br />
+
+    * Bold, Italic  & Underline Tags :
+
+        -> Used to highlights text  in your page.
+
+        <b> Bold Text </b>
+        <i> Italic Text </i>
+        <u> Underline Text </u> 
+
+    * Big & Small Tags :
+
+        -> Used to display big & small text on your page...
+
+        <big> Big Text </big>
+        <small> Small Text </small>
+
+    * Hr Tags :
+
+        -> Used to display a horizontal ruler, used to seprate content.
+
+    * Pre Tag :
+
+        -> Used to display text as it is (without ignoring spaces & next line) 
+
+        <pre>  This 
+            is a sample 
+            text </pre>
