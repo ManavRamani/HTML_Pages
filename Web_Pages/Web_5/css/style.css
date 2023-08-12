@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#parent{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgb(189, 7, 7);
+    /* align-items: center; */
+    justify-content: center;
+}
+#child-1{
+    flex-basis: 45%;
+    color: white;
+    border: 1px solid #fff;
+}
+.child-1{
+    flex-direction: column;
+}
+.box-1{
+    background-image: linear-gradient(rgb(243, 91, 9),rgb(221, 6, 6));
+    
+}
+.box-1{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    height: 190px;
+    padding: 65px 180px;
+    background-image: linear-gradient(rgb(243, 91, 9),rgb(221, 6, 6));
+
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 10px;
+    margin-bottom: 169px;
+}
+.child-a1{
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+}
+.child-a2{
+    border: 1px solid #fff;
+    flex-basis: 50%;
+}
+.m-text{
+    height: 80px;
+    border: 1px solid #fff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(221, 6, 6),rgb(243, 91, 9));
+
+}
+.section-2{
+    height: 400px;
+    background-color: rgb(189, 7, 7);
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent-2{
+    height: 300px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.child-2 p{
+    color: gold;
+}
+.child-2 h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.border{
+    /* border-bottom: 1px solid black; */
+    width: 200px;
+}
+.text{
+    height: 40px;
+    border: 1px solid #fff;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.child-2{
+    display: flex;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+.child-2a{
+    display: flex;
+    flex-basis: 45%;
+    background-color: rgb(132, 14, 14);
+    /* border: 1px solid black; */
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+#p{
+    /* border: 1px solid black; */
+    height: auto;
+    padding: 10px 40px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(221, 6, 6),rgb(243, 91, 9));
+}
+.child-2a b{
+    line-height: 2;
+}
+.child-2a input{
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+}
+.input-1{
+    margin-left: 117px;
+}
+.input-2{
+    margin-left: 125px;
+}
+.input-3{
+    margin-left: 100px;
+}
+.input-4{
+    margin-left: 122px;
+    height: 30px;
+    margin-top: 10px;
+}
+.input-5{
+    margin-left: 50px;
+}
+.child-2a button{
+    height: 30px;
+    width: 80px;
+    margin-left: 430px;
+    cursor: pointer;
+}
+.section-3{
+    height: 400px;
+    background-color: rgb(189, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.parent-3{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.child-3{
+    flex-basis: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.child-5{
+    flex-basis: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    background-color: maroon;
+}
+.child-5a{
+    flex-basis: 45%;
+    position: relative;
+}
+
+.child-5a p{
+    color: gold;
+}
+.child-5a button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.child-5a h2{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    font-size: 25px;
+    color: rgb(243, 96, 11);
+}
+.child-3{
+    display: flex;
+}
+.child-3a{
+    flex-basis: 35%;
+}
+.child-3b{
+    flex-basis: 65%;
+    padding-top: 50px;
+    color: gold;
+}
+.child-3b a{
+    color: rgb(39, 32, 32);
+    font-size: 23px;
+}
+.img1{
+    height: 598px;
+    width: 755px;
+}
+.img2{
+    margin-top: 20px;
+    margin-left: -10px;
+    height: 80%;
+    width: 350px;
+}
+.img3{
+    height: 85%;
+    width: 90%;
+    border-radius: 10px 100px 100px 10px;
+}   
