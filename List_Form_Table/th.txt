@@ -1,0 +1,98 @@
+1. List in HTML :-
+
+    -> List are used to represent real life list data.
+
+        i). unordered           ii). ordered
+            - <ul>                  - <ol>
+            - <li>Apple<li>         - <li>Apple</li>
+            - <li>Mengo<li>         - <li>Mengo</li>
+            - </ul>                 - </ol>
+
+2. Tables in HTML :-
+
+    -> Tables are used to represent real life Table Data..
+
+        - <tr> -> used to display table Row
+        - <td> -> used to display table Data
+        - <th> ->  used to display table Header
+
+        -> 
+            <table>
+                <tr>
+                    <th>Roll No.</th>
+                    <th>Name</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <th>Manav</th>
+                    <th>Jasdan</th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <th>Jay</th>
+                    <th>Kalasar</th>
+                </tr>
+            </table>
+
+        * caption in Tables :
+
+            - <caption> Student Data </caption>
+
+        * thead & tbody in table :
+
+            - <thead> -> to wrap table head
+            - <tbody> -> to wrap table body 
+
+3. Form in HTML :
+
+    -> Form are used to collect data from the user 
+    -> Ex : Sign Up / Login / help Requests / Conect Me 
+
+        <form>
+            form Content
+        </form>
+
+    * Action in Form :
+
+        -> Action Attribute is used to define what action needs to be performed when a form is submitted 
+
+            - <form action="/action.php">
+
+        * Form Elements : Input      
+
+            - <input type="text" placeholder="Enter Name">
+            
+    * Label :
+
+        ->  
+            <label for="id1">
+                <input type="radio" value="class X" name="class" id="id1">
+            </label>
+            
+            <label for="id2">
+                <input type="radio" value="class X" name="class" id="id2">
+            </label>
+
+
+        -> Class & id :
+
+            -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
