@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emp Reg...</title>
+</head>
+<body>
+	<center>
+		<h1>Employee Registration</h1>		
+		<form>
+			<table width="400px">
+				<tr><td colspan="2" align="center"><label>Personal Infromation</label></td></tr>
+				<tr>
+					<td>
+						<label>Employee Id : </label>
+						<input type="text" name="id" placeholder="Employe Enter Id" pattern="[0-9]{3,6}" required>
+					</td>
+					<td>
+						<label>Employee Name : </label>
+						<input type="text" name="name" placeholder="Emp Name" pattern="[a-z A-Z]{3,}" required>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+				<tr>
+					<td>
+						<label>Email : </label>
+						<input type="email" placeholder="xyz@gmail.com" name="email" required>
+					</td>
+					<td>
+						<label>Number : </label>
+						<input type="text" name="number" placeholder="1234567890" minlength="10" maxlength="10" pattern="[0-9]{10}" required>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+				<tr>
+					<td colspan="4">Marital Status : 
+					<label>Single<input type="radio" name="Status" value="Single" checked/></label>
+						<label>Married<input type="radio" name="Status" value="Married"/></label></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr><td colspan="2" align="center"><label>Eduction Qualifaction</label></td></tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>
+						<label>Eduction : </label>
+						<input type="text" placeholder="Enter Your Eduction" name="edu" required>
+					</td>
+					<td>
+						<label>Experience : </label>
+						<input type="text" placeholder="Enter Your Experience" pattern="[0-9]{1,2}" name="exp" required>
+					</td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr><td colspan="2" align="center"><label>Job Details</label></td></tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>
+						<label>Designation</label>
+						<input type="text" placeholder="Enter Your Designation" name="Designation" required>
+					</td>
+					<td>
+						<label>Job Location : </label>
+						<input type="text" placeholder="Enter Job Location" name="loc" required>
+					</td>
+				</tr>
+				<tr><td><label>Salary : </label>
+						<input type="Number" name="salary" placeholder="Enter Salary" pattern="[1-9][1-9]{1,6}" required></td></tr>
+				<tr><td><br/></td></tr>
+				<tr><td align="center" colspan="2"><input type="submit" name="Register"></td></tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>

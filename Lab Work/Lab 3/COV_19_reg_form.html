@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Student Information Form
+	</title>
+</head>
+<body>
+	<center>
+		<form>
+			<label><h1>Student Information</h1></label>
+			<table>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="fname" placeholder="Enter Name" pattern="[a-z A-Z]{3,}" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="lname" placeholder="Enter Name" pattern="[a-z A-Z]{3,}" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Adhar Number</td>
+					<td><input type="text" name="AdharNum" minlength="14" maxlength="14" pattern="[0-9]{1,4}[ ][0-9]{1,4}[ ][0-9]{1,4}" placeholder="Enter Your AdharNumber" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Vaccine Name</td>
+					<td><select required>
+						<option hidden>Pleas Select Vaccine name</option>
+						<!-- <option hidden disabled selected>Pleas Select Vaccine name</option> -->
+						<option value="1">Dose 1</option>
+						<option value="2">Dose 2</option>
+						<option value="3">Booster Dose</option>
+						
+					</select></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Vaccine Center Name</td>
+					<td><select required>
+						<option hidden>Pleas Select Vaccine Center name s</option>
+						<!-- <option hidden disabled selected>Pleas Select Vaccine Center name</option> -->
+						<option value="Jasdan">Jasdan</option>
+						<option value="Kalasar">Kalasar</option>
+						<option value="Lilapur">Lilapur</option>
+						<option value="Sivrajpur">Sivrajpur</option>	
+					</select></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Date of Dose</td>
+					<td><input type="date" name="dob" required></td>
+				</tr>
+				
+				<tr><td><br/></td></tr>
+								<tr>
+					<td>Vaccine Name</td>
+					<td><select required>
+						<option hidden>Dose Number</option>
+						<!-- <option hidden disabled selected>Dose Number</option> -->
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						
+					</select></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" name="submit">
+						<input type="reset" name="reset">
+
+					</td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>

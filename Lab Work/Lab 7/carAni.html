@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Animation</title>
+	<style type="text/css">
+		.bg{
+			height: 98vh;
+			width: 100%;
+			background-image: url(./image/road.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: fixed;
+		}
+		.car{
+			background-image: url(./image/carbg.png);
+			height: 100%;
+			position: relative;
+			left: 0px;
+			bottom: 0px;
+			width: 100%;
+			background-size: 800px;
+			background-repeat: no-repeat;
+			margin-top: 25%;
+			margin-left: 18%;
+			animation-name: trip;
+			animation-duration: 5s;	 
+			animation-iteration-count: 1;
+		}
+		@keyframes trip{
+			from{
+				height: 100%;
+				width: 100%;
+				/*position: relative;*/
+				top: 0px;
+				left: 0px;
+				background-size: 800px;
+			}
+			to{
+				height: 40%;
+				width: 40%;				
+				top: 40px;
+				left: 370px;	
+				background-size: 400px;
+			animation-timing-function: all;
+
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="car">
+			
+		</div>
+	</div>
+</body>
+</html>
+
+/*
+20%{
+				height: 50%;
+				width: 50%;
+				/*position: relative;*/
+				bottom: 2%;
+				left: 20%;	
+				background-size: 500px;	
+			animation-timing-function: all;
+
+			}
+			40%{
+				height: 50%;
+				width: 50%;
+				bottom: 3%;
+				left: 30%;	
+				background-size: 400px;	
+			animation-timing-function: all;
+
+			}
+			60%{
+				height: 50%;
+				width: 50%;
+				bottom: 3%;
+				left: 35%;	
+				background-size: 300px;	
+			animation-timing-function: all;
+
+			}
+*/

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Student Information Form
+	</title>
+</head>
+<body>
+	<center>
+		<form>
+			<label><h1>Student Information</h1></label>
+			<table>
+				<tr>
+					<td>Full Name</td>
+					<td><input type="text" name="name" placeholder="Enter Name" pattern="[a-z A-Z]{3,}" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" placeholder="xyz@gmail.com" title="enter valid email like 'xy123@gmail.com'" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Mobile No.</td>
+					<td><input type="text" name="Mobile" minlength="10" maxlength="10" pattern="[1-9][0-9]{9}" placeholder="Enter Your Number" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Address</td>
+					<td><textarea rows="2" cols="21" required></textarea></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Nationality</td>
+					<td><input type="text" maxlength="20" pattern="[a-zA-Z]{5,}" name="nationality" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Date of Birth</td>
+					<td><input type="date" name="dob" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Gender</td>
+					<td><label>Male<input type="radio" name="gender" value="male" checked/></label>
+						<label>Female<input type="radio" name="gender" value="female"/></label></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>High Degree</td>
+					<td><select>
+						<!-- <option hidden>Select Option</option> -->
+						<option hidden disabled selected>Select Option</option>
+						<option value="BCA">BCA</option>
+						<option value="MCA">MCA</option>
+						<option value="BBA">BBA</option>
+						<option value="BA">BA</option>
+						<option value="B.Com">B.Com</option>
+						<option value="M.Com">M.Com</option>
+					</select></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>CPI</td>
+					<td><input type="text" name="cpi" pattern="[0-9]{1,}[.]{}" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>University</td>
+					<td><input type="text" name="uni" required></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td>Passing Year</td>
+					<td><select>
+						<option disabled selected>Select Your Passing Year</option>
+						<option>2020</option>
+						<option>2021</option>
+						<option>2022</option>
+						<option>2023</option>
+					</select></td>
+				</tr>
+				<tr><td><br/></td></tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" name="submit">
+						<input type="reset" name="reset">
+
+					</td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>
