@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.con{
+			height: 96vh;
+			width: 100%;
+			position: absolute;
+		}
+		.ani{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			animation-name: manav;
+			animation-duration: 0.5s;
+			position: relative;
+			left: 0px;
+			bottom: 0px;
+			top: 0px;
+			right: 0px;
+			animation-iteration-count: infinite;
+			animation-direction: reverse;
+		}
+		@keyframes manav{
+			/*Left to Right*/
+			0%{
+				top: 0px;
+				left: 0px;
+			}
+			20%{
+				top: 0px;
+				left: 90%;
+			}
+			/*Top To Bottom*/
+			40%{
+				top: 85%;
+				bottom: 0%;
+				left: 90%;
+			}
+			/*Right To Left*/
+			70%{
+				left: 0%;
+				top: 80%;
+			}
+			/*Bottom to Top*/
+			100%{
+				top: 0%;
+				bottom: 0%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="con">
+		<div class="ani"></div>		
+	</div>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.con{
+			height: 98vh;
+			width: 100%;			
+		}
+		.ani{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			animation-name: manav;
+			animation-duration: 2s;
+			position: relative;
+			left: 0px;
+			bottom: 0px;
+			top: 0px;
+			right: 0px;
+			/*animation-iteration-count: 2;*/
+			animation-iteration-count: infinite;
+		}
+		@keyframes manav{
+			/*Left to Right*/
+			0%{
+				top: 0px;
+				left: 0px;
+			}
+			20%{
+				top: 0px;
+				left: 94%;
+			}
+			/*Top To Bottom*/
+			40%{
+				top: 92%;
+				bottom: 0%;
+				left: 94%;
+			}
+			/*Right To Left*/
+			70%{
+				left: 0%;
+				top: 92%;
+			}
+			/*Bottom to Top*/
+			100%{
+				top: 0%;
+				bottom: 0%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="con">
+		<div class="ani"></div>		
+	</div>
+</body>
+</html>

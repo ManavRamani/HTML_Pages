@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.con{
+			height: 98vh;
+			width: 100%;			
+		}
+		.ani{
+			height: 100%;
+			width: 100%;
+			background-color: red;
+			animation-name: manav;
+			animation-duration: 10s;
+		}
+		@keyframes manav{
+			from{
+				background-color: red;
+			}
+			to{
+				background-color: yellow;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="con">
+		<div class="ani"></div>		
+	</div>
+</body>
+</html>

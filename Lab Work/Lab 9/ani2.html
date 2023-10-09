@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Animation</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+/*		.bg{
+			height: 99vh;
+			width: 100%;
+			background-image: url(./cartoon/f1.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: fixed;
+		}*/
+		.car{
+			background-image: url(./cartoon/f1.jpg);
+			height: 100%;
+			position: relative;
+			left: 0px;
+			bottom: 0px;
+			width: 100%;
+			background-size: 800px;
+			background-repeat: no-repeat;
+			margin-top: 25%;
+			margin-left: 18%;
+			animation-name: trip;
+			animation-duration: 5s;	 
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes trip{
+			from{
+				height: 100%;
+				width: 100%;
+				background-image: url(./cartoon/f1.jpg);
+				position: relative;
+				top: 0px;
+				left: 0px;
+				background-size: 800px;
+			}
+			to{
+				height: 40%;
+				width: 40%;				
+				top: 40px;
+				left: 370px;	
+				background-size: 400px;
+			animation-timing-function: all;
+			transform: rotate(180deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="car">
+			
+		</div>
+	</div>
+</body>
+</html>
+
