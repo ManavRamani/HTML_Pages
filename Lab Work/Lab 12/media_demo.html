@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color:rgba(0, 13, 255, 0.4);
+    
+    
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+   
+}
+.logo > img{
+    height: 100%;
+    max-width: 100%;
+    animation: logoanimation 5s;
+    animation-iteration-count: infinite;
+}
+
+.navbar{
+    
+    padding: 5px;
+    width: 80%;
+    height: 100%;
+    float: left;
+    justify-content: space-evenly;
+}
+.div-links{
+    height: 100%;
+    width: 25%;
+    float: left;
+    padding-top: 20px;
+}
+
+
+.links{
+    
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: rgb(205, 26, 26);
+    transition:.4s ease-in-out ;
+}
+.links:hover{
+    color: white;
+    background-color: blue;
+    text-shadow: 2px 2px 2px coral;
+    box-shadow: 2px 2px 2px coral inset;
+    border: 0px; 
+}
+
+.content{
+    height: 80vh;
+    width: 100%;
+}
+.sidebar{
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-image: linear-gradient(red,yellow,green,violet);
+    border: 2px solid black;
+}
+.sidebar-menu{
+        height: 18%;
+        width: 80%;
+        text-transform:uppercase ;
+        text-align: center;
+        
+        border: 2px solid green;
+        margin: 5px 10%;
+        padding-top:8% ;
+        border-radius: 10px;
+        transition:.4s ease-in-out ;
+}
+.sidebar-menu:hover{
+    color: white;
+    background-color: blue;
+    border: 0px;
+}
+.main-content{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+.student{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border: 2px dotted blue;
+    background-image: radial-gradient(grey,white);
+}
+.faculty{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border: 2px dotted pink;
+    background-image: radial-gradient(pink,rgb(29, 209, 98));
+    
+}
+.stu-img{
+    height: 98%;
+    width: 48%;
+    margin: 5px;
+    float: left;
+    
+    position: relative;
+    
+}
+.fac-img{
+    height: 98%;
+    width: 32%;
+    float: left;
+    margin: 3px;
+    position: relative;
+}
+img{
+    height: 100%;
+    width:100%;
+    transition: border .4s;
+    
+}
+img:hover{
+    border: 10px solid palevioletred;
+}
+
+.img1{
+    
+    
+    animation-name: animation1;
+    animation-duration: 5s;
+    
+}
+
+.img2{
+    
+    
+    animation-name: animation2;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+
+@keyframes animation1 {
+    0%{
+        position: absolute;
+        top:-1000px;
+    }
+    100%{
+        position: absolute;
+        top: 0px;
+    }
+    
+}
+
+@keyframes animation2 {
+    0%{
+        position: absolute;
+        left:-1000px;
+        transition: 0deg;
+        border-radius: 500%;
+    }
+    100%{
+        position: absolute;
+        left:0px;
+        rotate: 360deg;
+        border-radius: 0px;
+    } 
+}
+@keyframes logoanimation{
+    0%{
+        width: 100%;
+        height: 100%;
+    }
+    50%{
+        
+        width: 75%;
+        height: 75%;
+    }
+    100%{
+        
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 15px;
+}
+@media (max-width: 780px) {
+    .header{
+        height: 40vh;
+    }
+    .logo{
+        height: 50%;
+        width: 100%;
+    }
+    .navbar{
+        height: 50%;
+        width: 100%;
+    }
+    .div-links{
+        height: 50%;
+        width: 50%;
+        float: left;
+    }
+    .links{
+        height: 25%;
+        width: 100%;
+        margin-top: 3px;
+    }
+    .content{
+        height: 250vh;
+        width: 100%;
+
+    }
+    .sidebar{
+        height: 25%;
+        width: 100%;
+    }
+
+    .main-content{
+        height: 75%;
+        width: 100%;
+    }
+    .student{
+        width: 100%;
+        height: 50%;
+    }
+    .stu-img{
+        width: 100%;
+        height: 49%;
+    }
+    .faculty{
+        width: 100%;
+        height: 50%;
+    }
+    .fac-img{
+        width: 100%;
+        height: 33%;
+    }
+    .footer{
+        height: 10vh;
+        width: 100%;
+    }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <img src="./image/download.png" />
+        </div>
+        <div class="navbar">
+            <div class="div-links"><a class="links" href="#">Home</a></div>
+            <div class="div-links"> <a class="links" href="#">Country</a></div>
+            <div class="div-links"><a class="links" href="#">State</a></div>
+            <div class="div-links"><a class="links" href="#">City</a></div>
+         
+        </div>
+    </div>
+    <div class="content">
+        <div class="sidebar">
+            <div class="sidebar-menu">result</div>
+            <div class="sidebar-menu">aplly</div>
+            <div class="sidebar-menu">placement</div>
+            <div class="sidebar-menu">recrutment</div>
+            <div class="sidebar-menu">news</div>
+        </div>
+        <div class="main-content">
+            <div class="student">
+                <div class="stu-img">
+                    <img class="img1" src="./image/2.jpg" alt="">
+                </div>
+                <div class="stu-img">
+                    <img class="img1" src="./image/2.jpg" alt="">
+                </div>
+            </div>
+            <div class="faculty">
+                <div class="fac-img">
+                    <img class="img2" src="./image/3.jpg" alt="">
+                </div>
+                <div class="fac-img">
+                    <img class="img2" src="./image/3.jpg" alt=""></div>
+                <div class="fac-img">
+                    <img class="img2" src="./image/3.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer @ CopyRights</div>
+    
+</body>
+</html>
